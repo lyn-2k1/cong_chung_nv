@@ -1,0 +1,33 @@
+.upload-tab-wrapper {
+  padding: 20px 16px;
+  .upload-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    // height: 100%;
+  }
+  .upload-show-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    .btn-actions-wrapper {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  img {
+    width: 100%;
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}

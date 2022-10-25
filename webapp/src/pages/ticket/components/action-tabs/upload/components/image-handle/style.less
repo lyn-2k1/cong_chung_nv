@@ -1,0 +1,62 @@
+.image-handle-wrapper {
+  .wrapper {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #dedede;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    .image-handle {
+      height: 500px;
+      margin-bottom: 45px;
+      overflow: auto;
+      .item {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        padding: 10px;
+        .image {
+          width: 100px;
+          height: 100px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .download-img-btn {
+          color: teal;
+          cursor: pointer;
+          &:active {
+            color: rgb(0, 85, 85);
+          }
+        }
+      }
+      .actions-btn > * {
+        margin-left: 1rem;
+      }
+    }
+
+    .item-label {
+      width: 50px;
+    }
+    .apply-btn {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+  .next-btn {
+    margin-top: 30px;
+    text-align: right;
+  }
+}
+
+.remove-orc-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .actions-modal {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+}

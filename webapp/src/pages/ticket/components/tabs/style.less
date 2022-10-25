@@ -1,0 +1,134 @@
+.bg-white {
+  background-color: #fff;
+}
+.tabs-control {
+  .tabs-flow-status {
+    display: flex;
+    height: 30rem;
+    height: 100%;
+    .ant-tabs-card {
+      border-bottom-color: transparent !important;
+    }
+    .ant-tabs-tab {
+      height: fit-content !important;
+      padding: 0 !important;
+      border-radius: 3px !important;
+      &.ant-tabs-tab-active {
+        background-color: #1890ff;
+        .ant-tabs-tab-btn {
+          color: #fff;
+        }
+      }
+      .ant-tabs-tab-btn {
+        padding: 8px 15px;
+      }
+    }
+  }
+}
+
+.ant-tabs-nav {
+  &::before {
+    border-bottom: none !important;
+    content: none;
+  }
+}
+.image-uploader {
+  display: inline-block;
+  width: 100%;
+}
+.text-area {
+  height: 20rem !important;
+}
+
+.result-wrapper {
+  position: relative;
+  padding: 24px;
+  color: #fff;
+  background: #1d1e22;
+}
+.scan-result {
+  height: 20rem;
+  overflow-y: auto;
+  word-wrap: break-word;
+  background: #24292e;
+}
+
+.upload-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  vertical-align: top;
+  background-color: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+
+  &:hover {
+    border-color: #ec1c2a;
+  }
+}
+
+.ant-upload {
+  width: 100%;
+}
+
+.upload-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  vertical-align: top;
+  background-color: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+
+  &:hover {
+    border-color: #ec1c2a;
+  }
+}
+
+.list-file {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+
+  background-color: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+
+  &:hover {
+    border-color: #ec1c2a;
+  }
+  .action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+  }
+}
+
+.w-full {
+  width: 100%;
+}
